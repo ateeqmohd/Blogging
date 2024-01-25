@@ -1,0 +1,1 @@
+var sticky = navbar.offsetTop;

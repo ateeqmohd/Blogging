@@ -1,0 +1,64 @@
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-size: 20px;
+    transition: 0.15s;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.topnav{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    gap: 2rem;
+}
+.logo{
+    font-size: 30px;
+    display: flex;
+    
+}
+.land{
+    display: block;
+    text-align: center;
+    padding: 150px;
+    font-size: 60px;
+    padding-bottom: 20px;
+    
+}
+.land-button{
+    width: 15%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #53a0d3;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2 2 2;
+}
+    
+.land-button:hover {
+    
+    background-color: #3b63af;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+.button-p{
+    display: block;
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
